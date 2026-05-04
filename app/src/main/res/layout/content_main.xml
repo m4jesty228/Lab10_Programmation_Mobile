@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Conteneur principal des fragments — LAB Navigation Drawer -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+        Ce FrameLayout reçoit les fragments dynamiquement.
+        Son id "contenu" est référencé dans MainActivity.java
+        via : replace(R.id.contenu, new BlankFragment())
+    -->
+    <FrameLayout
+        android:id="@+id/contenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

@@ -1,0 +1,35 @@
+<!-- Layout du Fragment 1 — couleur et texte personnalisés -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#EDE7F6">
+
+    <!-- Icône décorative -->
+    <TextView
+        android:text="🏠"
+        android:textSize="48sp"
+        android:layout_marginBottom="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Titre du fragment -->
+    <TextView
+        android:text="Accueil"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#4527A0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Sous-titre descriptif -->
+    <TextView
+        android:text="Bienvenue sur le Fragment 1"
+        android:textSize="14sp"
+        android:textColor="#7E57C2"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

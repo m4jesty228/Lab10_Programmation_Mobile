@@ -1,0 +1,22 @@
+<!-- Menu du Navigation Drawer — LAB Navigation | ENSA Marrakech -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Item 1 : accès au Fragment principal -->
+    <item
+        android:id="@+id/nav_fragment1"
+        android:icon="@drawable/ic_home"
+        android:title="Accueil" />
+
+    <!-- Item 2 : accès au Fragment tableau de bord -->
+    <item
+        android:id="@+id/nav_fragment2"
+        android:icon="@drawable/ic_dashboard"
+        android:title="Tableau de bord" />
+
+    <!-- Item 3 : accès au Fragment liste -->
+    <item
+        android:id="@+id/nav_list"
+        android:icon="@drawable/ic_list"
+        android:title="Liste" />
+
+</menu>
